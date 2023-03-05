@@ -133,16 +133,23 @@ h1 {
     background-color: #0069d9;
 }
 
+.All-button{
+    max-width: 350px;
+    height: 36.4px;
+    position: relative;
+}
+
 
 .facebook-button {
     padding: 9px 50px;
-    margin-right: 12px;
     background-color: #3b5998;
     color: #fff;
     border-radius: 5px;
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
+    position: absolute;
+    right: 0;
 }
 
 .facebook-button:hover {
@@ -151,12 +158,14 @@ h1 {
 
 .twitter-button {
     padding: 9px 57.5px;
-    border-radius: 5px;
     background-color: #1da1f2;
     color: #fff;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
+    position: absolute;
+    left: 0;
 }
 
 .twitter-button:hover {
