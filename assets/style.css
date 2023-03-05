@@ -12,9 +12,9 @@ body {
     opacity: 0.902;
     width: 440px;
     height: 520px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 8px 10px rgba(0, 1, 1, 0.26));
+    border-radius: 10px;
     background-color: #ffffff;
+    filter: drop-shadow(0px 8px 10px rgba(0, 1, 1, 0.26));
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,45 +29,39 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    margin-bottom: 27px;
+    margin-top: 38px;
+    font: bold 24px "Proxima Nova";
     line-height: 28px;
     text-transform: uppercase;
     color: #403f3f;
-    font-weight: bold;
-    font-family: "Proxima Nova";
-    margin-bottom: 27px;
-    margin-top: 38px;
 }
 
 .input {
     opacity: 0.800;
-    font-size: 14px;
+    font: bold 14px "Proxima Nova";
     letter-spacing: 2px;
     line-height: 28px;
     text-transform: uppercase;
     color: #4f4f4f;
-    font-weight: bold;
-    font-family: "Proxima Nova";
 }
 
 #email {
     opacity: 0.702;
     width: 351px;
     height: 50px;
-    outline-color: green;
-    border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.7019607843137254);
-    border: 1px solid #d8d8d8;
     padding-left: 10px;
     margin-bottom: 34px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    outline-color: green;
+    background-color: rgba(255, 255, 255, 0.7019607843137254);
 }
 
 #email::placeholder {
     opacity: 0.902;
-    font-size: 18px;
     color: #555555;
-    font-weight: 300;
-    font-family: "Proxima Nova";
+    font: 300 18px "Proxima Nova";
 }
 
 
@@ -75,12 +69,12 @@ h1 {
     opacity: 0.702;
     width: 351px;
     height: 50px;
-    outline-color: green;
-    border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.7019607843137254);
-    border: 1px solid #d8d8d8;
     padding-left: 10px;
     margin-bottom: 14px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    outline-color: green;
+    background-color: rgba(255, 255, 255, 0.7019607843137254);
 }
 
 #password::placeholder {
@@ -108,39 +102,31 @@ h1 {
 
 .Checkbox-text {
     margin-left: 30px;
-    font-size: 14px;
-    line-height: 28px;
+    font: bold 14px/28px "Proxima Nova";
     color: #8b8b8b;
-    font-weight: bold;
-    font-family: "Proxima Nova";
-
-
 }
 
 .forgot-link {
-    font-size: 14px;
-    line-height: 28px;
+    margin-left: 183px;
     color: #04a9f4;
-    font-weight: bold;
-    font-family: "Proxima Nova";
+    font: bold 14px/28px "Proxima Nova";
     text-align: right;
     display: inline;
     text-decoration: none;
-    margin-left: 183px;
 }
 
 .sign-in-button {
-    display: inline-block;
     padding: 13px 144.5px;
     margin: 23px 0 49px 0;
+    border-radius: 5px;
     background-color: #007bff;
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
-    filter: drop-shadow(0px 3px 0px #0075aa);
     line-height: 28px;
+    display: inline-block;
+    text-decoration: none;
+    filter: drop-shadow(0px 3px 0px #0075aa);
 }
 
 .sign-in-button:hover {
@@ -149,13 +135,13 @@ h1 {
 
 
 .facebook-button {
-    display: inline-block;
     padding: 9px 50px;
     margin-right: 12px;
     background-color: #3b5998;
     color: #fff;
-    text-decoration: none;
     border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -164,13 +150,13 @@ h1 {
 }
 
 .twitter-button {
-    display: inline-block;
     padding: 9px 57.5px;
+    border-radius: 5px;
     background-color: #1da1f2;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
+    display: inline-block;
 }
 
 .twitter-button:hover {
