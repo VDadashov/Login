@@ -85,18 +85,16 @@ h1 {
 }
 
 .remember-me{
-    padding-bottom: 10px;
-    display: inline;
     position: relative;
 }
 
 #Checkbox {
     width: 21px;
     height: 21px;
-    border-radius: 6px;
+    border-radius: 100px;
     background-color: #04a9f4;
     position: absolute;
-    bottom: 7px;
+    bottom: 4px;
 }
 
 
@@ -107,12 +105,14 @@ h1 {
 }
 
 .forgot-link {
-    margin-left: 183px;
+    /* margin-left: 183px; */
     color: #04a9f4;
     font: bold 14px/28px "Proxima Nova";
     text-align: right;
     display: inline;
     text-decoration: none;
+    position: absolute;
+    right: 5px;
 }
 
 .sign-in-button {
